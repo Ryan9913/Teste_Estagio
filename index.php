@@ -7,7 +7,14 @@
 4 erro - erro na linha 30 $url = "http://viacep.com.br/ws$cep/xml/"; faltou uma barra apos o xspassando a ser $url = "http://viacep.com.br/ws/$cep/xml/";
 5 erro - erro de digitação na linha 23 $adress->uf deveria ser $address->uf
 6 erro - tag <form> não foi fechada no HTML
-7 erro - erro de digitação na linha 16 estava idex.php e deveriaser index.php	-->
+7 erro - erro de digitação na linha 16 estava idex.php e deveriaser index.php	
+
+
+
+Melhorias:
+Validação do CEP: Adicionaria uma validação mais robusta para o campo do CEP, garantindo que o usuário insira um CEP válido.
+Tratamento de Erros: Adicionaria um tratamento de erros para o caso de o serviço do ViaCEP não retornar os dados esperados.
+-->
 
 	<head>
 	<title> MEU CEP </title>
